@@ -1,0 +1,109 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Revision Page}{4}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Contribution Page}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Executive Summary}{6}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Hierarchical Index}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Class Hierarchy}{7}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Class Index}{8}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Class List}{8}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Class Documentation}{9}{chapter.6}%
+\contentsline {section}{\numberline {6.1}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bath\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ST Class Reference}{9}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{9}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Member Function Documentation}{9}{subsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2.1}getRangeToDelete()}{9}{subsubsection.6.1.2.1}%
+\contentsline {subsubsection}{\numberline {6.1.2.2}keys()}{10}{subsubsection.6.1.2.2}%
+\contentsline {section}{\numberline {6.2}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Bed\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ST Class Reference}{10}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{11}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Member Function Documentation}{11}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}getRangeToDelete()}{11}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}keys()}{12}{subsubsection.6.2.2.2}%
+\contentsline {section}{\numberline {6.3}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter Class Reference}{12}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{13}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Member Function Documentation}{13}{subsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.1}getQuery()}{13}{subsubsection.6.3.2.1}%
+\contentsline {subsubsection}{\numberline {6.3.2.2}getRelation()}{13}{subsubsection.6.3.2.2}%
+\contentsline {subsubsection}{\numberline {6.3.2.3}getValue()}{13}{subsubsection.6.3.2.3}%
+\contentsline {subsubsection}{\numberline {6.3.2.4}validFilter()}{13}{subsubsection.6.3.2.4}%
+\contentsline {section}{\numberline {6.4}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Filter\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Live Class Reference}{14}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{14}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Member Function Documentation}{14}{subsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.1}addAnFFile()}{14}{subsubsection.6.4.2.1}%
+\contentsline {subsubsection}{\numberline {6.4.2.2}addFilter()}{15}{subsubsection.6.4.2.2}%
+\contentsline {subsubsection}{\numberline {6.4.2.3}deleteListings()}{15}{subsubsection.6.4.2.3}%
+\contentsline {subsubsection}{\numberline {6.4.2.4}getLiveTrees()}{15}{subsubsection.6.4.2.4}%
+\contentsline {subsubsection}{\numberline {6.4.2.5}liveTreeInvariant()}{16}{subsubsection.6.4.2.5}%
+\contentsline {subsubsection}{\numberline {6.4.2.6}removeFilter()}{16}{subsubsection.6.4.2.6}%
+\contentsline {subsubsection}{\numberline {6.4.2.7}showTop()}{16}{subsubsection.6.4.2.7}%
+\contentsline {subsubsection}{\numberline {6.4.2.8}toString()}{16}{subsubsection.6.4.2.8}%
+\contentsline {section}{\numberline {6.5}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Listing Class Reference}{17}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{17}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Member Function Documentation}{18}{subsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.1}changeTreeType()}{18}{subsubsection.6.5.2.1}%
+\contentsline {subsubsection}{\numberline {6.5.2.2}compareTo()}{18}{subsubsection.6.5.2.2}%
+\contentsline {subsubsection}{\numberline {6.5.2.3}getId()}{18}{subsubsection.6.5.2.3}%
+\contentsline {subsubsection}{\numberline {6.5.2.4}toSeq()}{18}{subsubsection.6.5.2.4}%
+\contentsline {subsubsection}{\numberline {6.5.2.5}validNumber()}{18}{subsubsection.6.5.2.5}%
+\contentsline {section}{\numberline {6.6}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main Class Reference}{19}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{19}{subsection.6.6.1}%
+\contentsline {section}{\numberline {6.7}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Neighborhood\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Summary Class Reference}{19}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{20}{subsection.6.7.1}%
+\contentsline {section}{\numberline {6.8}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Red\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Black\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ST$<$ Key extends Comparable$<$ Key, Value $>$.Node Class Reference}{20}{section.6.8}%
+\contentsline {section}{\numberline {6.9}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Optimization Class Reference}{20}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{20}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}Constructor \& Destructor Documentation}{21}{subsection.6.9.2}%
+\contentsline {subsubsection}{\numberline {6.9.2.1}Optimization()}{21}{subsubsection.6.9.2.1}%
+\contentsline {subsection}{\numberline {6.9.3}Member Function Documentation}{22}{subsection.6.9.3}%
+\contentsline {subsubsection}{\numberline {6.9.3.1}optimizeReport()}{22}{subsubsection.6.9.3.1}%
+\contentsline {subsubsection}{\numberline {6.9.3.2}showTopNeighborhoods()}{22}{subsubsection.6.9.3.2}%
+\contentsline {subsubsection}{\numberline {6.9.3.3}showTopZipCodes()}{22}{subsubsection.6.9.3.3}%
+\contentsline {section}{\numberline {6.10}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Read\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Listings\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}From\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SV Class Reference}{22}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{23}{subsection.6.10.1}%
+\contentsline {subsection}{\numberline {6.10.2}Member Function Documentation}{23}{subsection.6.10.2}%
+\contentsline {subsubsection}{\numberline {6.10.2.1}ReadListings()}{23}{subsubsection.6.10.2.1}%
+\contentsline {section}{\numberline {6.11}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Red\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Black\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ST$<$ Key extends Comparable$<$ Key, Value $>$ Class Template Reference}{23}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{24}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}Constructor \& Destructor Documentation}{24}{subsection.6.11.2}%
+\contentsline {subsubsection}{\numberline {6.11.2.1}RedBlackBST()}{25}{subsubsection.6.11.2.1}%
+\contentsline {subsection}{\numberline {6.11.3}Member Function Documentation}{25}{subsection.6.11.3}%
+\contentsline {subsubsection}{\numberline {6.11.3.1}ceiling()}{25}{subsubsection.6.11.3.1}%
+\contentsline {subsubsection}{\numberline {6.11.3.2}contains()}{25}{subsubsection.6.11.3.2}%
+\contentsline {subsubsection}{\numberline {6.11.3.3}delete()}{26}{subsubsection.6.11.3.3}%
+\contentsline {subsubsection}{\numberline {6.11.3.4}deleteMax()}{26}{subsubsection.6.11.3.4}%
+\contentsline {subsubsection}{\numberline {6.11.3.5}deleteMin()}{27}{subsubsection.6.11.3.5}%
+\contentsline {subsubsection}{\numberline {6.11.3.6}floor()}{27}{subsubsection.6.11.3.6}%
+\contentsline {subsubsection}{\numberline {6.11.3.7}get()}{27}{subsubsection.6.11.3.7}%
+\contentsline {subsubsection}{\numberline {6.11.3.8}height()}{28}{subsubsection.6.11.3.8}%
+\contentsline {subsubsection}{\numberline {6.11.3.9}isEmpty()}{28}{subsubsection.6.11.3.9}%
+\contentsline {subsubsection}{\numberline {6.11.3.10}keys()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{28}{subsubsection.6.11.3.10}%
+\contentsline {subsubsection}{\numberline {6.11.3.11}keys()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{29}{subsubsection.6.11.3.11}%
+\contentsline {subsubsection}{\numberline {6.11.3.12}max()}{29}{subsubsection.6.11.3.12}%
+\contentsline {subsubsection}{\numberline {6.11.3.13}min()}{30}{subsubsection.6.11.3.13}%
+\contentsline {subsubsection}{\numberline {6.11.3.14}put()}{30}{subsubsection.6.11.3.14}%
+\contentsline {subsubsection}{\numberline {6.11.3.15}rank()}{30}{subsubsection.6.11.3.15}%
+\contentsline {subsubsection}{\numberline {6.11.3.16}select()}{31}{subsubsection.6.11.3.16}%
+\contentsline {subsubsection}{\numberline {6.11.3.17}size()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{32}{subsubsection.6.11.3.17}%
+\contentsline {subsubsection}{\numberline {6.11.3.18}size()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{32}{subsubsection.6.11.3.18}%
+\contentsline {section}{\numberline {6.12}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rev\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ST Class Reference}{32}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Detailed Description}{33}{subsection.6.12.1}%
+\contentsline {subsection}{\numberline {6.12.2}Member Function Documentation}{33}{subsection.6.12.2}%
+\contentsline {subsubsection}{\numberline {6.12.2.1}getRangeToDelete()}{33}{subsubsection.6.12.2.1}%
+\contentsline {subsubsection}{\numberline {6.12.2.2}keys()}{34}{subsubsection.6.12.2.2}%
+\contentsline {section}{\numberline {6.13}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Summary\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Stats Class Reference}{34}{section.6.13}%
+\contentsline {subsection}{\numberline {6.13.1}Detailed Description}{34}{subsection.6.13.1}%
+\contentsline {subsection}{\numberline {6.13.2}Member Function Documentation}{35}{subsection.6.13.2}%
+\contentsline {subsubsection}{\numberline {6.13.2.1}showNeighborhoods()}{35}{subsubsection.6.13.2.1}%
+\contentsline {subsubsection}{\numberline {6.13.2.2}showZipCodes()}{35}{subsubsection.6.13.2.2}%
+\contentsline {section}{\numberline {6.14}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Write\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Listings\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}To\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SV Class Reference}{35}{section.6.14}%
+\contentsline {subsection}{\numberline {6.14.1}Detailed Description}{35}{subsection.6.14.1}%
+\contentsline {subsection}{\numberline {6.14.2}Member Function Documentation}{35}{subsection.6.14.2}%
+\contentsline {subsubsection}{\numberline {6.14.2.1}WriteListings()}{35}{subsubsection.6.14.2.1}%
+\contentsline {section}{\numberline {6.15}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zip\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Code\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Clean Class Reference}{36}{section.6.15}%
+\contentsline {subsection}{\numberline {6.15.1}Detailed Description}{36}{subsection.6.15.1}%
+\contentsline {subsection}{\numberline {6.15.2}Member Function Documentation}{36}{subsection.6.15.2}%
+\contentsline {subsubsection}{\numberline {6.15.2.1}cleanData()}{36}{subsubsection.6.15.2.1}%
+\contentsline {subsubsection}{\numberline {6.15.2.2}uncleanedData()}{37}{subsubsection.6.15.2.2}%
+\contentsline {subsubsection}{\numberline {6.15.2.3}validFields()}{37}{subsubsection.6.15.2.3}%
+\contentsline {subsubsection}{\numberline {6.15.2.4}writeCleanedListings()}{37}{subsubsection.6.15.2.4}%
+\contentsline {section}{\numberline {6.16}X\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B3.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Zip\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Code\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Summary Class Reference}{38}{section.6.16}%
+\contentsline {subsection}{\numberline {6.16.1}Detailed Description}{38}{subsection.6.16.1}%
+\contentsline {chapter}{Index}{39}{section*.35}%

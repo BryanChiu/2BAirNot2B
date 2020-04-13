@@ -1,0 +1,113 @@
+\hypertarget{class_x_b3_1_1_bed_b_s_t}{}\doxysection{X\+B3.\+Bed\+B\+ST Class Reference}
+\label{class_x_b3_1_1_bed_b_s_t}\index{XB3.BedBST@{XB3.BedBST}}
+Inheritance diagram for X\+B3.\+Bed\+B\+ST\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_x_b3_1_1_bed_b_s_t}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Queue$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ \mbox{\hyperlink{class_x_b3_1_1_bed_b_s_t_a8fe3d10a1e4bd842b0a938cf594e7032}{get\+Range\+To\+Delete}} (\mbox{\hyperlink{class_x_b3_1_1_filter}{Filter}} some\+Filter)
+\item 
+Queue$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ \mbox{\hyperlink{class_x_b3_1_1_bed_b_s_t_aecce86747d26775332ba98ebf017188e}{keys}} (Double lo, Double hi)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_x_b3_1_1_bed_b_s_t_aff336bed0378f9629706d0a8dbb17010}\label{class_x_b3_1_1_bed_b_s_t_aff336bed0378f9629706d0a8dbb17010}} 
+static final String {\bfseries tree\+Type} = \char`\"{}bedrooms\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+B\+ST for listings based on number of bedrooms
+
+\begin{DoxyAuthor}{Author}
+Michael Yohannes 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_x_b3_1_1_bed_b_s_t_a8fe3d10a1e4bd842b0a938cf594e7032}\label{class_x_b3_1_1_bed_b_s_t_a8fe3d10a1e4bd842b0a938cf594e7032}} 
+\index{XB3.BedBST@{XB3.BedBST}!getRangeToDelete@{getRangeToDelete}}
+\index{getRangeToDelete@{getRangeToDelete}!XB3.BedBST@{XB3.BedBST}}
+\doxysubsubsection{\texorpdfstring{getRangeToDelete()}{getRangeToDelete()}}
+{\footnotesize\ttfamily Queue$<$\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}$>$ X\+B3.\+Bed\+B\+S\+T.\+get\+Range\+To\+Delete (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_x_b3_1_1_filter}{Filter}}}]{some\+Filter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns all keys in the \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{Red\+Black\+B\+ST}} before/after a certain cutoff, as a Queue
+
+
+\begin{DoxyParams}{Parameters}
+{\em some\+Filter} & filter \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+either all keys before/after
+\begin{DoxyCode}{0}
+\DoxyCodeLine{someFilter }
+\end{DoxyCode}
+ (inclusive) as a
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Queue }
+\end{DoxyCode}
+ , or
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_bed_b_s_t_aecce86747d26775332ba98ebf017188e}\label{class_x_b3_1_1_bed_b_s_t_aecce86747d26775332ba98ebf017188e}} 
+\index{XB3.BedBST@{XB3.BedBST}!keys@{keys}}
+\index{keys@{keys}!XB3.BedBST@{XB3.BedBST}}
+\doxysubsubsection{\texorpdfstring{keys()}{keys()}}
+{\footnotesize\ttfamily Queue$<$\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}$>$ X\+B3.\+Bed\+B\+S\+T.\+keys (\begin{DoxyParamCaption}\item[{Double}]{lo,  }\item[{Double}]{hi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns all keys in the \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{Red\+Black\+B\+ST}} in the given range, as a Queue
+
+
+\begin{DoxyParams}{Parameters}
+{\em lo} & minimum endpoint \\
+\hline
+{\em hi} & maximum endpoint \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+all keys in the symbol table between
+\begin{DoxyCode}{0}
+\DoxyCodeLine{lo }
+\end{DoxyCode}
+ (inclusive) and
+\begin{DoxyCode}{0}
+\DoxyCodeLine{hi }
+\end{DoxyCode}
+ (inclusive) as a
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Queue }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if either
+\begin{DoxyCode}{1}
+\DoxyCodeLine{lo }
+\end{DoxyCode}
+ or
+\begin{DoxyCode}{1}
+\DoxyCodeLine{hi }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+2\+X\+B3\+\_\+project/src/\+X\+B3/Bed\+B\+S\+T.\+java\end{DoxyCompactItemize}

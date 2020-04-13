@@ -4,11 +4,15 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import javax.management.openmbean.InvalidKeyException;
-
 import org.omg.DynamicAny.DynAnyPackage.InvalidValue;
 
 import com.opencsv.exceptions.CsvValidationException;
+
+/**
+ * The optimization feature of 2BAirNot2B
+ * 
+ * @author Michael Yohannes
+ */
 
 public class Optimization {
 	private ArrayList<Listing> idSortedListings;
@@ -16,6 +20,13 @@ public class Optimization {
 	private Integer myIndex;
 	private RevBST betterThanMyID = new RevBST();
 
+    /**
+     * @param id the id
+     * @throws FileNotFoundException Raises an error if the File is unable to be found.
+     * @throws CsvValidationException Raises an error if the CSV is unable to be validated appropriately. 
+     * @throws IOException Raises an error if an input/output exception occurs while writing to the file.
+     * @throws InvaldValue Raises an error if the value is not valid. 
+     */
 	public Optimization(int id) throws FileNotFoundException, CsvValidationException, IOException, InvalidValue {
 		ArrayList<Listing> cleanListings = ReadListingsFromCSV.ReadListings("cleaned");
 		int n = cleanListings.size();
@@ -29,20 +40,28 @@ public class Optimization {
 		for (int i = myIndex; i < idSortedListings.size(); i++) {
 			betterThanMyID.put(Listing.changeTreeType(idSortedListings.get(i), "revenue"), 1);
 		}
-
 	}
 
+    /**
+     * Shows zipcodes better than current ID.
+     */
 	public void showTopZipCodes() {
 		SummaryStats sumStats = new SummaryStats(betterThanMyID);
 		sumStats.showZipCodes();
 
 	}
 
+    /**
+     * Shows neighborhoods better than current ID.
+     */
 	public void showTopNeighborhoods() {
 		SummaryStats sumStats = new SummaryStats(betterThanMyID);
 		sumStats.showNeighborhoods();
 	}
 
+    /**
+     * A way to optimize the report and get data faster for larger datasets.
+     */
 	public void optimizeReport() {
 		int numberOfBetter = betterThanMyID.size();
 
@@ -116,9 +135,13 @@ public class Optimization {
 
 	}
 
+	/**
+	 * Internal static class for binary search
+	 */
 	private static class BinarySearch {
 		// Returns index of x if it is present in arr[l..
 		// r], else return -1
+		
 		int binarySearch(ArrayList<Listing> arr, int l, int r, int x) {
 			if (r >= l) {
 				int mid = l + (r - l) / 2;
@@ -144,6 +167,9 @@ public class Optimization {
 		}
 	}
 
+	/**
+	 * Internal static class for quicksort
+	 */
 	private static class QuickSort {
 		/*
 		 * This function takes last element as pivot, places the pivot element at its

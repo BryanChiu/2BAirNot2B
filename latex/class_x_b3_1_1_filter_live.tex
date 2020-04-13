@@ -1,0 +1,149 @@
+\hypertarget{class_x_b3_1_1_filter_live}{}\doxysection{X\+B3.\+Filter\+Live Class Reference}
+\label{class_x_b3_1_1_filter_live}\index{XB3.FilterLive@{XB3.FilterLive}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Hash\+Map$<$ String, \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{Red\+Black\+B\+ST}}$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}, Integer $>$ $>$ \mbox{\hyperlink{class_x_b3_1_1_filter_live_aabf033e7f6746c22c9ce1eebe3516fdd}{get\+Live\+Trees}} ()
+\item 
+void \mbox{\hyperlink{class_x_b3_1_1_filter_live_a457636d24e7d5761e7c6c91be2098df5}{add\+Filter}} (String some\+Filter)  throws Exception 
+\item 
+void \mbox{\hyperlink{class_x_b3_1_1_filter_live_a59416e8288ad472f8b5b4f48c1851a1e}{delete\+Listings}} (Array\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ range\+To\+Delete)
+\item 
+void \mbox{\hyperlink{class_x_b3_1_1_filter_live_aca112eaa8729ffeb291826c9001b7bf5}{remove\+Filter}} (String some\+Filter)  throws Exception 
+\item 
+void \mbox{\hyperlink{class_x_b3_1_1_filter_live_a820a7fe00ae43337d47245ec57963dfd}{add\+An\+F\+File}} (Integer seq\+Integer, Integer Ffile\+Integer)  throws File\+Not\+Found\+Exception, Csv\+Validation\+Exception, I\+O\+Exception 
+\item 
+boolean \mbox{\hyperlink{class_x_b3_1_1_filter_live_af6f6d495199c580fd363a9681aa02775}{live\+Tree\+Invariant}} ()
+\item 
+void \mbox{\hyperlink{class_x_b3_1_1_filter_live_ad6caa0bb979281e3435c432f9fad0b87}{show\+Top}} (int x)
+\item 
+String \mbox{\hyperlink{class_x_b3_1_1_filter_live_aebf72ec12ce88df6dcd8150ce58cfa12}{to\+String}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class that represents properties used to filter listings
+
+\begin{DoxyAuthor}{Author}
+Michael Yohannes 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_x_b3_1_1_filter_live_a820a7fe00ae43337d47245ec57963dfd}\label{class_x_b3_1_1_filter_live_a820a7fe00ae43337d47245ec57963dfd}} 
+\index{XB3.FilterLive@{XB3.FilterLive}!addAnFFile@{addAnFFile}}
+\index{addAnFFile@{addAnFFile}!XB3.FilterLive@{XB3.FilterLive}}
+\doxysubsubsection{\texorpdfstring{addAnFFile()}{addAnFFile()}}
+{\footnotesize\ttfamily void X\+B3.\+Filter\+Live.\+add\+An\+F\+File (\begin{DoxyParamCaption}\item[{Integer}]{seq\+Integer,  }\item[{Integer}]{Ffile\+Integer }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception, Csv\+Validation\+Exception, I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Determines the indices to delete and adds it to the set and files accordingly.
+
+
+\begin{DoxyParams}{Parameters}
+{\em seq\+Integer} & sequence index \\
+\hline
+{\em Ffile\+Integer} & Ffile index \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em File\+Not\+Found\+Exception} & if file is not found \\
+\hline
+{\em Csv\+Validation\+Exception} & if C\+SV is not validated appropriately \\
+\hline
+{\em I\+O\+Exception} & if I/O exception occurs \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_filter_live_a457636d24e7d5761e7c6c91be2098df5}\label{class_x_b3_1_1_filter_live_a457636d24e7d5761e7c6c91be2098df5}} 
+\index{XB3.FilterLive@{XB3.FilterLive}!addFilter@{addFilter}}
+\index{addFilter@{addFilter}!XB3.FilterLive@{XB3.FilterLive}}
+\doxysubsubsection{\texorpdfstring{addFilter()}{addFilter()}}
+{\footnotesize\ttfamily void X\+B3.\+Filter\+Live.\+add\+Filter (\begin{DoxyParamCaption}\item[{String}]{some\+Filter }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds a filter to the tree selected.
+
+
+\begin{DoxyParams}{Parameters}
+{\em some\+Filter} & filter to be added \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & if trees are not balanced \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_filter_live_a59416e8288ad472f8b5b4f48c1851a1e}\label{class_x_b3_1_1_filter_live_a59416e8288ad472f8b5b4f48c1851a1e}} 
+\index{XB3.FilterLive@{XB3.FilterLive}!deleteListings@{deleteListings}}
+\index{deleteListings@{deleteListings}!XB3.FilterLive@{XB3.FilterLive}}
+\doxysubsubsection{\texorpdfstring{deleteListings()}{deleteListings()}}
+{\footnotesize\ttfamily void X\+B3.\+Filter\+Live.\+delete\+Listings (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$}]{range\+To\+Delete }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Deletes listings in the given tree.
+
+
+\begin{DoxyParams}{Parameters}
+{\em range\+To\+Delete} & listings to be deleted \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_x_b3_1_1_filter_live_aabf033e7f6746c22c9ce1eebe3516fdd}\label{class_x_b3_1_1_filter_live_aabf033e7f6746c22c9ce1eebe3516fdd}} 
+\index{XB3.FilterLive@{XB3.FilterLive}!getLiveTrees@{getLiveTrees}}
+\index{getLiveTrees@{getLiveTrees}!XB3.FilterLive@{XB3.FilterLive}}
+\doxysubsubsection{\texorpdfstring{getLiveTrees()}{getLiveTrees()}}
+{\footnotesize\ttfamily Hash\+Map$<$String, \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{Red\+Black\+B\+ST}}$<$\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}, Integer$>$ $>$ X\+B3.\+Filter\+Live.\+get\+Live\+Trees (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a Hash\+Map of String and a B\+ST.
+
+\begin{DoxyReturn}{Returns}
+a Hash\+Map of String and a B\+ST. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_filter_live_af6f6d495199c580fd363a9681aa02775}\label{class_x_b3_1_1_filter_live_af6f6d495199c580fd363a9681aa02775}} 
+\index{XB3.FilterLive@{XB3.FilterLive}!liveTreeInvariant@{liveTreeInvariant}}
+\index{liveTreeInvariant@{liveTreeInvariant}!XB3.FilterLive@{XB3.FilterLive}}
+\doxysubsubsection{\texorpdfstring{liveTreeInvariant()}{liveTreeInvariant()}}
+{\footnotesize\ttfamily boolean X\+B3.\+Filter\+Live.\+live\+Tree\+Invariant (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Are all B\+S\+Ts the same size?
+
+\begin{DoxyReturn}{Returns}
+whether the B\+S\+Ts for each property are the same. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_filter_live_aca112eaa8729ffeb291826c9001b7bf5}\label{class_x_b3_1_1_filter_live_aca112eaa8729ffeb291826c9001b7bf5}} 
+\index{XB3.FilterLive@{XB3.FilterLive}!removeFilter@{removeFilter}}
+\index{removeFilter@{removeFilter}!XB3.FilterLive@{XB3.FilterLive}}
+\doxysubsubsection{\texorpdfstring{removeFilter()}{removeFilter()}}
+{\footnotesize\ttfamily void X\+B3.\+Filter\+Live.\+remove\+Filter (\begin{DoxyParamCaption}\item[{String}]{some\+Filter }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Removes a filter from the current query.
+
+
+\begin{DoxyParams}{Parameters}
+{\em some\+Filter} & filter to be removed \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & if add\+An\+F\+File fails \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_filter_live_ad6caa0bb979281e3435c432f9fad0b87}\label{class_x_b3_1_1_filter_live_ad6caa0bb979281e3435c432f9fad0b87}} 
+\index{XB3.FilterLive@{XB3.FilterLive}!showTop@{showTop}}
+\index{showTop@{showTop}!XB3.FilterLive@{XB3.FilterLive}}
+\doxysubsubsection{\texorpdfstring{showTop()}{showTop()}}
+{\footnotesize\ttfamily void X\+B3.\+Filter\+Live.\+show\+Top (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Prints out each listing in the B\+ST by revenue. \mbox{\Hypertarget{class_x_b3_1_1_filter_live_aebf72ec12ce88df6dcd8150ce58cfa12}\label{class_x_b3_1_1_filter_live_aebf72ec12ce88df6dcd8150ce58cfa12}} 
+\index{XB3.FilterLive@{XB3.FilterLive}!toString@{toString}}
+\index{toString@{toString}!XB3.FilterLive@{XB3.FilterLive}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String X\+B3.\+Filter\+Live.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns a String representation of the number of listings matching the query.
+
+\begin{DoxyReturn}{Returns}
+a String representation of the number of listings matching the query. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+2\+X\+B3\+\_\+project/src/\+X\+B3/Filter\+Live.\+java\end{DoxyCompactItemize}

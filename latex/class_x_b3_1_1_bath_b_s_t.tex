@@ -1,0 +1,113 @@
+\hypertarget{class_x_b3_1_1_bath_b_s_t}{}\doxysection{X\+B3.\+Bath\+B\+ST Class Reference}
+\label{class_x_b3_1_1_bath_b_s_t}\index{XB3.BathBST@{XB3.BathBST}}
+Inheritance diagram for X\+B3.\+Bath\+B\+ST\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_x_b3_1_1_bath_b_s_t}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Queue$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ \mbox{\hyperlink{class_x_b3_1_1_bath_b_s_t_a2c9b3a4e3c27f986cd4287c02941eb23}{get\+Range\+To\+Delete}} (\mbox{\hyperlink{class_x_b3_1_1_filter}{Filter}} some\+Filter)
+\item 
+Queue$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ \mbox{\hyperlink{class_x_b3_1_1_bath_b_s_t_a1025a618f530b0073099882455fbf331}{keys}} (Double lo, Double hi)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_x_b3_1_1_bath_b_s_t_a6ee00e65d79ffcdb3ee30e8cbe3ed29b}\label{class_x_b3_1_1_bath_b_s_t_a6ee00e65d79ffcdb3ee30e8cbe3ed29b}} 
+static final String {\bfseries tree\+Type} = \char`\"{}bathrooms\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+B\+ST for listings based on number of bathrooms
+
+\begin{DoxyAuthor}{Author}
+Michael Yohannes 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_x_b3_1_1_bath_b_s_t_a2c9b3a4e3c27f986cd4287c02941eb23}\label{class_x_b3_1_1_bath_b_s_t_a2c9b3a4e3c27f986cd4287c02941eb23}} 
+\index{XB3.BathBST@{XB3.BathBST}!getRangeToDelete@{getRangeToDelete}}
+\index{getRangeToDelete@{getRangeToDelete}!XB3.BathBST@{XB3.BathBST}}
+\doxysubsubsection{\texorpdfstring{getRangeToDelete()}{getRangeToDelete()}}
+{\footnotesize\ttfamily Queue$<$\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}$>$ X\+B3.\+Bath\+B\+S\+T.\+get\+Range\+To\+Delete (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_x_b3_1_1_filter}{Filter}}}]{some\+Filter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns all keys in the \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{Red\+Black\+B\+ST}} before/after a certain cutoff, as a Queue
+
+
+\begin{DoxyParams}{Parameters}
+{\em some\+Filter} & filter \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+either all keys before/after
+\begin{DoxyCode}{0}
+\DoxyCodeLine{someFilter }
+\end{DoxyCode}
+ (inclusive) as a
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Queue }
+\end{DoxyCode}
+ , or
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_bath_b_s_t_a1025a618f530b0073099882455fbf331}\label{class_x_b3_1_1_bath_b_s_t_a1025a618f530b0073099882455fbf331}} 
+\index{XB3.BathBST@{XB3.BathBST}!keys@{keys}}
+\index{keys@{keys}!XB3.BathBST@{XB3.BathBST}}
+\doxysubsubsection{\texorpdfstring{keys()}{keys()}}
+{\footnotesize\ttfamily Queue$<$\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}$>$ X\+B3.\+Bath\+B\+S\+T.\+keys (\begin{DoxyParamCaption}\item[{Double}]{lo,  }\item[{Double}]{hi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns all keys in the \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{Red\+Black\+B\+ST}} in the given range, as a Queue
+
+
+\begin{DoxyParams}{Parameters}
+{\em lo} & minimum endpoint \\
+\hline
+{\em hi} & maximum endpoint \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+all keys in the symbol table between
+\begin{DoxyCode}{0}
+\DoxyCodeLine{lo }
+\end{DoxyCode}
+ (inclusive) and
+\begin{DoxyCode}{0}
+\DoxyCodeLine{hi }
+\end{DoxyCode}
+ (inclusive) as a
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Queue }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if either
+\begin{DoxyCode}{1}
+\DoxyCodeLine{lo }
+\end{DoxyCode}
+ or
+\begin{DoxyCode}{1}
+\DoxyCodeLine{hi }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+2\+X\+B3\+\_\+project/src/\+X\+B3/Bath\+B\+S\+T.\+java\end{DoxyCompactItemize}

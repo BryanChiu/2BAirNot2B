@@ -1,33 +1,35 @@
 package XB3;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
 import java.util.Set;
 
-import com.opencsv.CSVReaderHeaderAware;
 import com.opencsv.exceptions.CsvValidationException;
+
+/**
+ * Class that represents properties used to filter listings
+ *
+ * @author Michael Yohannes
+ */
 
 public class FilterLive {
 	private ArrayList<HashMap<Filter, Integer>> liveFilters = new ArrayList<>();
-	private Integer numfiltersApllied = 0;
+	private Integer numfiltersApplied = 0;
 	private HashMap<String, RedBlackBST<Listing, Integer>> liveTrees = new HashMap<>();
 	private final static String[] liveTreeTypes = { "revenue", "bathrooms", "bedrooms" };
 
+	/**
+	 * Initializes the three BSTs based on revenue, bedrooms, bathrooms.
+	 */
 	FilterLive() throws IOException, CsvValidationException {
 		liveTrees.put("revenue", new RevBST());
 		liveTrees.put("bedrooms", new BedBST());
 		liveTrees.put("bathrooms", new BathBST());
 		ArrayList<Listing> cleanListings = ReadListingsFromCSV.ReadListings("cleaned");
-//		System.out.println(cleanListings.size());
 
 		for (Listing listing : cleanListings) {
 			for (String tree : liveTreeTypes) {
@@ -36,34 +38,45 @@ public class FilterLive {
 		}
 	}
 
+    /**
+	 * Returns a HashMap of String and a BST.
+	 * 
+	 * @return a HashMap of String and a BST.
+	 */
 	public HashMap<String, RedBlackBST<Listing, Integer>> getLiveTrees() {
 		return liveTrees;
 	}
 
+    /**
+	 * Adds a filter to the tree selected.
+	 * 
+	 * @param someFilter filter to be added
+	 * @throws Exception if trees are not balanced
+	 */
 	public void addFilter(String someFilter) throws Exception {
 		String[] strSplit = someFilter.split(" ");
 		Filter newFilter = new Filter(strSplit);
 		HashMap<Filter, Integer> filterMap = new HashMap<>();
-		filterMap.put(newFilter, numfiltersApllied);
+		filterMap.put(newFilter, numfiltersApplied);
 		liveFilters.add(filterMap);
 		ArrayList<Listing> Ffile;
 		switch (newFilter.getQuery()) {
 		case "revenue":
 			Ffile = new ArrayList<Listing>(((RevBST) liveTrees.get("revenue")).getRangeToDelete(newFilter));
 			deleteListings(Ffile);
-			WriteListingsToCSV.WriteListings(Ffile, "F" + numfiltersApllied);
+			WriteListingsToCSV.WriteListings(Ffile, "F" + numfiltersApplied);
 			break;
 
 		case "bedrooms":
 			Ffile = new ArrayList<Listing>(((BedBST) liveTrees.get("bedrooms")).getRangeToDelete(newFilter));
 			deleteListings(Ffile);
-			WriteListingsToCSV.WriteListings(Ffile, "F" + numfiltersApllied);
+			WriteListingsToCSV.WriteListings(Ffile, "F" + numfiltersApplied);
 			break;
 
 		case "bathrooms":
 			Ffile = new ArrayList<Listing>(((BathBST) liveTrees.get("bathrooms")).getRangeToDelete(newFilter));
 			deleteListings(Ffile);
-			WriteListingsToCSV.WriteListings(Ffile, "F" + numfiltersApllied);
+			WriteListingsToCSV.WriteListings(Ffile, "F" + numfiltersApplied);
 			break;
 
 		default:
@@ -75,12 +88,17 @@ public class FilterLive {
 			throw new Exception("Trees are not balanced");
 		}
 
-		numfiltersApllied++;
+		numfiltersApplied++;
 		
 		System.out.println(toString());
 
 	}
 	
+    /**
+	 * Deletes listings in the given tree.
+	 * 
+	 * @param rangeToDelete listings to be deleted
+	 */
 	public void deleteListings(ArrayList<Listing> rangeToDelete) {
 		for (Listing listing : rangeToDelete) {
 			for (String key : liveTrees.keySet()) {
@@ -89,6 +107,12 @@ public class FilterLive {
 		}
 	}
 
+    /**
+	 * Removes a filter from the current query.
+	 * 
+	 * @param someFilter filter to be removed
+	 * @throws Exception if addAnFFile fails
+	 */
 	public void removeFilter(String someFilter) throws Exception {
 		String[] strSplit = someFilter.split(" ");
 		Filter filter = new Filter(strSplit);
@@ -106,6 +130,15 @@ public class FilterLive {
 		System.out.println(toString());
 	}
 
+    /**
+	 * Determines the indices to delete and adds it to the set and files accordingly.
+	 * 
+	 * @param seqInteger sequence index 
+	 * @param FfileInteger Ffile index
+	 * @throws FileNotFoundException if file is not found
+	 * @throws CsvValidationException if CSV is not validated appropriately
+	 * @throws IOException if I/O exception occurs
+	 */
 	public void addAnFFile(Integer seqInteger, Integer FfileInteger)
 			throws FileNotFoundException, CsvValidationException, IOException {
 		ArrayList<Listing> Ffile = ReadListingsFromCSV.ReadListings("F" + FfileInteger);
@@ -177,6 +210,11 @@ public class FilterLive {
 
 	}
 
+    /**
+	 * Are all BSTs the same size?
+	 * 
+	 * @return whether the BSTs for each property are the same.
+	 */
 	public boolean liveTreeInvariant() {
 		int revSize = liveTrees.get("revenue").size();
 		boolean sameSize = true;
@@ -186,6 +224,9 @@ public class FilterLive {
 		return sameSize;
 	}
 	
+    /**
+	 * Prints out each listing in the BST by revenue.
+	 */
 	public void showTop(int x) {
 		RedBlackBST<Listing, Integer> revBST =  liveTrees.get("revenue");
 		for (Listing listing : revBST.revInorder(x) ) {
@@ -193,6 +234,11 @@ public class FilterLive {
 		}
 	}
 	
+    /**
+	 * Returns a String representation of the number of listings matching the query.
+	 * 
+	 * @return a String representation of the number of listings matching the query.
+	 */
 	public String toString() {
 		RedBlackBST<Listing, Integer> revBST =  liveTrees.get("revenue");
 		return "\n"+ revBST.size() + " listings matching your query";

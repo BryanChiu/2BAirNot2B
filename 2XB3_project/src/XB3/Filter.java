@@ -1,28 +1,58 @@
 package XB3;
 
+/**
+ * Class that represents properties used to filter listings
+ *
+ * @author Michael Yohannes
+ */
+
 public class Filter {
 	private String query;
 	private String relation;
 	private String value;
 
+	/**
+	 * Initializes filter based on three Strings
+	 */
 	Filter(String[] filterKeys) {
 		query = filterKeys[0].toLowerCase();
 		relation = filterKeys[1].toLowerCase();
 		value = filterKeys[2].toLowerCase();
 	}
 
+	/**
+	 * Returns the property to be filtered, as a String
+	 *
+	 * @return the property to be filtered, as a String
+	 */
 	public String getQuery() {
 		return query;
 	}
 
+	/**
+	 * Returns the relation to the property to be filtered, either "<" or ">"
+	 *
+	 * @return the relation to the property to be filtered, either "<" or ">"
+	 */
 	public String getRelation() {
 		return relation;
 	}
 
+	/**
+	 * Returns the value of the property to be filtered, as a String
+	 *
+	 * @return the value of the property to be filtered, as a String
+	 */
 	public String getValue() {
 		return value;
 	}
 	
+	/**
+	 * Is the Filter valid?
+	 *
+	 * @param str input String
+	 * @return whether the input String can be parsed into a valid Filter
+	 */
 	public static boolean validFilter(String str) {
 		String[] strArr = str.toLowerCase().split(" ");
 		if (strArr.length != 3)

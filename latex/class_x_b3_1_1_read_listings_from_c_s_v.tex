@@ -1,0 +1,49 @@
+\hypertarget{class_x_b3_1_1_read_listings_from_c_s_v}{}\doxysection{X\+B3.\+Read\+Listings\+From\+C\+SV Class Reference}
+\label{class_x_b3_1_1_read_listings_from_c_s_v}\index{XB3.ReadListingsFromCSV@{XB3.ReadListingsFromCSV}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Array\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ \mbox{\hyperlink{class_x_b3_1_1_read_listings_from_c_s_v_a770d88bb70b9e2a25012ea361d4052c6}{Read\+Listings}} (String file)  throws File\+Not\+Found\+Exception, I\+O\+Exception, Csv\+Validation\+Exception 
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Reads Air\+BnB listings from C\+SV
+
+\begin{DoxyAuthor}{Author}
+Michael Yohannes 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_x_b3_1_1_read_listings_from_c_s_v_a770d88bb70b9e2a25012ea361d4052c6}\label{class_x_b3_1_1_read_listings_from_c_s_v_a770d88bb70b9e2a25012ea361d4052c6}} 
+\index{XB3.ReadListingsFromCSV@{XB3.ReadListingsFromCSV}!ReadListings@{ReadListings}}
+\index{ReadListings@{ReadListings}!XB3.ReadListingsFromCSV@{XB3.ReadListingsFromCSV}}
+\doxysubsubsection{\texorpdfstring{ReadListings()}{ReadListings()}}
+{\footnotesize\ttfamily static Array\+List$<$\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}$>$ X\+B3.\+Read\+Listings\+From\+C\+S\+V.\+Read\+Listings (\begin{DoxyParamCaption}\item[{String}]{file }\end{DoxyParamCaption}) throws File\+Not\+Found\+Exception, I\+O\+Exception, Csv\+Validation\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Opens the C\+SV file and creates an Array\+List of \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} objects, and returns the array.
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & is a String corresponding to the filename. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns an Array\+List of \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} objects. ~\newline
+ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em File\+Not\+Found\+Exception} & Raises an error if the File is unable to be found. \\
+\hline
+{\em I\+O\+Exception} & Raises an error if an input/output exception occurs while writing to the file. \\
+\hline
+{\em Csv\+Validation\+Exception} & Raises an error if the C\+SV is unable to be validated appropriately. \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+2\+X\+B3\+\_\+project/src/\+X\+B3/Read\+Listings\+From\+C\+S\+V.\+java\end{DoxyCompactItemize}

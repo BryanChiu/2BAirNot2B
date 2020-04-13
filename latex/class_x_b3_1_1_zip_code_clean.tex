@@ -1,0 +1,95 @@
+\hypertarget{class_x_b3_1_1_zip_code_clean}{}\doxysection{X\+B3.\+Zip\+Code\+Clean Class Reference}
+\label{class_x_b3_1_1_zip_code_clean}\index{XB3.ZipCodeClean@{XB3.ZipCodeClean}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_x_b3_1_1_zip_code_clean_a3825b7b4274f78048c5a94c14b597878}{write\+Cleaned\+Listings}} (Array\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ dirty\+Data)  throws I\+O\+Exception 
+\item 
+static Hash\+Map$<$ String, Linked\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ $>$ \mbox{\hyperlink{class_x_b3_1_1_zip_code_clean_a006fc0d987e7c99e1258f7f83784902c}{uncleaned\+Data}} (Array\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ dirty\+Data)
+\item 
+static Array\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ \mbox{\hyperlink{class_x_b3_1_1_zip_code_clean_a6a02e157676f4f739eaf9336412ebc34}{clean\+Data}} (Hash\+Map$<$ String, Linked\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$$>$ zipcodes)
+\item 
+static boolean \mbox{\hyperlink{class_x_b3_1_1_zip_code_clean_af5250cdab86f504b0610250292047237}{valid\+Fields}} (\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} listing)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Cleans listings based on zipcode and writes to new C\+SV
+
+\begin{DoxyAuthor}{Author}
+Michael Yohannes 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_x_b3_1_1_zip_code_clean_a6a02e157676f4f739eaf9336412ebc34}\label{class_x_b3_1_1_zip_code_clean_a6a02e157676f4f739eaf9336412ebc34}} 
+\index{XB3.ZipCodeClean@{XB3.ZipCodeClean}!cleanData@{cleanData}}
+\index{cleanData@{cleanData}!XB3.ZipCodeClean@{XB3.ZipCodeClean}}
+\doxysubsubsection{\texorpdfstring{cleanData()}{cleanData()}}
+{\footnotesize\ttfamily static Array\+List$<$\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}$>$ X\+B3.\+Zip\+Code\+Clean.\+clean\+Data (\begin{DoxyParamCaption}\item[{Hash\+Map$<$ String, Linked\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$$>$}]{zipcodes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns an Array\+List of Listings after processing the mean and standard deviation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em zipcodes} & hashmap of string to listing linked list, corresponding to zip codes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an Array\+List of Listings after processing the mean and standard deviation 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_zip_code_clean_a006fc0d987e7c99e1258f7f83784902c}\label{class_x_b3_1_1_zip_code_clean_a006fc0d987e7c99e1258f7f83784902c}} 
+\index{XB3.ZipCodeClean@{XB3.ZipCodeClean}!uncleanedData@{uncleanedData}}
+\index{uncleanedData@{uncleanedData}!XB3.ZipCodeClean@{XB3.ZipCodeClean}}
+\doxysubsubsection{\texorpdfstring{uncleanedData()}{uncleanedData()}}
+{\footnotesize\ttfamily static Hash\+Map$<$String, Linked\+List$<$\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}$>$ $>$ X\+B3.\+Zip\+Code\+Clean.\+uncleaned\+Data (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$}]{dirty\+Data }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Returns a Hash\+Map with the key being the zipcode and a linked list of listings which correspond to that zip code.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dirty\+Data} & an Array\+List of Listings with uncleaned data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a Hash\+Map with the key being the zipcode and a linked list of listings which correspond to that zip code 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_zip_code_clean_af5250cdab86f504b0610250292047237}\label{class_x_b3_1_1_zip_code_clean_af5250cdab86f504b0610250292047237}} 
+\index{XB3.ZipCodeClean@{XB3.ZipCodeClean}!validFields@{validFields}}
+\index{validFields@{validFields}!XB3.ZipCodeClean@{XB3.ZipCodeClean}}
+\doxysubsubsection{\texorpdfstring{validFields()}{validFields()}}
+{\footnotesize\ttfamily static boolean X\+B3.\+Zip\+Code\+Clean.\+valid\+Fields (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}}]{listing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Determines whether all the fields are valid in a listing.
+
+
+\begin{DoxyParams}{Parameters}
+{\em listing} & listing to check \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+whether all the fields are valid in a listing 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_zip_code_clean_a3825b7b4274f78048c5a94c14b597878}\label{class_x_b3_1_1_zip_code_clean_a3825b7b4274f78048c5a94c14b597878}} 
+\index{XB3.ZipCodeClean@{XB3.ZipCodeClean}!writeCleanedListings@{writeCleanedListings}}
+\index{writeCleanedListings@{writeCleanedListings}!XB3.ZipCodeClean@{XB3.ZipCodeClean}}
+\doxysubsubsection{\texorpdfstring{writeCleanedListings()}{writeCleanedListings()}}
+{\footnotesize\ttfamily static void X\+B3.\+Zip\+Code\+Clean.\+write\+Cleaned\+Listings (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$}]{dirty\+Data }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Writes the listing to the output C\+SV.
+
+
+\begin{DoxyParams}{Parameters}
+{\em dirty\+Data} & uncleaned data \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & if the C\+SV file can not be opened \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+2\+X\+B3\+\_\+project/src/\+X\+B3/Zip\+Code\+Clean.\+java\end{DoxyCompactItemize}

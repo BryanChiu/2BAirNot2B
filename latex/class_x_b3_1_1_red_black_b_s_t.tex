@@ -1,0 +1,604 @@
+\hypertarget{class_x_b3_1_1_red_black_b_s_t}{}\doxysection{X\+B3.\+Red\+Black\+B\+ST$<$ Key extends Comparable$<$ Key, Value $>$ Class Template Reference}
+\label{class_x_b3_1_1_red_black_b_s_t}\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_1_1_node}{Node}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a6f73bebc8b0483cbe3d925f98391f7e0}{Red\+Black\+B\+ST}} ()
+\item 
+int \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a29bab1f2d1cdb268c887aa9b6949c4d9}{size}} ()
+\item 
+boolean \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a483d6a50d3b745bc780fc9994f30443d}{is\+Empty}} ()
+\item 
+Value \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a6d385d0498d9acd16839d6c9b960fcf7}{get}} (Key key)
+\item 
+boolean \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_aeeb9c0113b29e614061c87b4caf59bac}{contains}} (Key key)
+\item 
+void \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_ab9ba4788a6e9ecf29e5f2197917d610c}{put}} (Key key, Value val)
+\item 
+void \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a51a2f06b9e5d6027cbc6ad49e79688be}{delete\+Min}} ()
+\item 
+void \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a8537396d1ddbad849f45d451acf24457}{delete\+Max}} ()
+\item 
+void \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a1842035fcc9ae56735a3c31f38f66fc5}{delete}} (Key key)
+\item 
+int \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_af7063b9f0877f69a5c7824d9846fbc30}{height}} ()
+\item 
+Key \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a0e985a6dce9914cf4662510fd17c0660}{min}} ()
+\item 
+Key \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_afe8ffcf7e05e026979cc2e456a29582f}{max}} ()
+\item 
+Key \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a9c169daa99b6332328452992807784d0}{floor}} (Key key)
+\item 
+Key \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_ae3b5fc18d40512d0a5996d83d9a23e94}{ceiling}} (Key key)
+\item 
+Key \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a832975270b922ff75fa09a51f3ba540a}{select}} (int \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a4a0f9a5edd10de21f97b0476ed0f84ce}{rank}})
+\item 
+int \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a4a0f9a5edd10de21f97b0476ed0f84ce}{rank}} (Key key)
+\item 
+Iterable$<$ Key $>$ \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_aa27d93cae907f2de9daf8d5eee2c8b24}{keys}} ()
+\item 
+Iterable$<$ Key $>$ \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a0e8a5a7f610448956c0f21d789b7c62f}{keys}} (Key lo, Key hi)
+\item 
+int \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a6e258d9e39a7e03bd3acdc9dd792baca}{size}} (Key lo, Key hi)
+\item 
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_ad793da77e890b882a28f14690c832b13}\label{class_x_b3_1_1_red_black_b_s_t_ad793da77e890b882a28f14690c832b13}} 
+Queue$<$ Key $>$ {\bfseries inorder} ()
+\item 
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a146e9e8eb235dadc9674acbd012ab93e}\label{class_x_b3_1_1_red_black_b_s_t_a146e9e8eb235dadc9674acbd012ab93e}} 
+Queue$<$ Key $>$ {\bfseries rev\+Inorder} (int top)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a760fc7e84e189f2664a7c6576135bc2b}\label{class_x_b3_1_1_red_black_b_s_t_a760fc7e84e189f2664a7c6576135bc2b}} 
+\mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_1_1_node}{Node}} {\bfseries root}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a92f3e845eceaa59e96f014218da0d63e}\label{class_x_b3_1_1_red_black_b_s_t_a92f3e845eceaa59e96f014218da0d63e}} 
+static final boolean {\bfseries R\+ED} = true
+\item 
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_ad73f9553f492b87e4b194fba4ac42060}\label{class_x_b3_1_1_red_black_b_s_t_ad73f9553f492b87e4b194fba4ac42060}} 
+static final boolean {\bfseries B\+L\+A\+CK} = false
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne.
+
+\begin{DoxyAuthor}{Author}
+Robert Sedgewick 
+
+Kevin Wayne 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a6f73bebc8b0483cbe3d925f98391f7e0}\label{class_x_b3_1_1_red_black_b_s_t_a6f73bebc8b0483cbe3d925f98391f7e0}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!RedBlackBST@{RedBlackBST}}
+\index{RedBlackBST@{RedBlackBST}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{RedBlackBST()}{RedBlackBST()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.\mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{Red\+Black\+B\+ST}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Initializes an empty symbol table. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_ae3b5fc18d40512d0a5996d83d9a23e94}\label{class_x_b3_1_1_red_black_b_s_t_ae3b5fc18d40512d0a5996d83d9a23e94}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!ceiling@{ceiling}}
+\index{ceiling@{ceiling}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{ceiling()}{ceiling()}}
+{\footnotesize\ttfamily Key \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.ceiling (\begin{DoxyParamCaption}\item[{Key}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the smallest key in the symbol table greater than or equal to 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ .
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the smallest key in the symbol table greater than or equal to 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em No\+Such\+Element\+Exception} & if there is no such key \\
+\hline
+{\em Illegal\+Argument\+Exception} & if
+\begin{DoxyCode}{1}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_aeeb9c0113b29e614061c87b4caf59bac}\label{class_x_b3_1_1_red_black_b_s_t_aeeb9c0113b29e614061c87b4caf59bac}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!contains@{contains}}
+\index{contains@{contains}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{contains()}{contains()}}
+{\footnotesize\ttfamily boolean \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.contains (\begin{DoxyParamCaption}\item[{Key}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Does this symbol table contain the given key?
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+\end{DoxyCode}
+ if this symbol table contains
+\begin{DoxyCode}{0}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ and 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+\end{DoxyCode}
+ otherwise 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if
+\begin{DoxyCode}{1}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a1842035fcc9ae56735a3c31f38f66fc5}\label{class_x_b3_1_1_red_black_b_s_t_a1842035fcc9ae56735a3c31f38f66fc5}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!delete@{delete}}
+\index{delete@{delete}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{delete()}{delete()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.delete (\begin{DoxyParamCaption}\item[{Key}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Removes the specified key and its associated value from this symbol table (if the key is in this symbol table).
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if
+\begin{DoxyCode}{1}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a8537396d1ddbad849f45d451acf24457}\label{class_x_b3_1_1_red_black_b_s_t_a8537396d1ddbad849f45d451acf24457}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!deleteMax@{deleteMax}}
+\index{deleteMax@{deleteMax}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{deleteMax()}{deleteMax()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.delete\+Max (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Removes the largest key and associated value from the symbol table.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em No\+Such\+Element\+Exception} & if the symbol table is empty \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a51a2f06b9e5d6027cbc6ad49e79688be}\label{class_x_b3_1_1_red_black_b_s_t_a51a2f06b9e5d6027cbc6ad49e79688be}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!deleteMin@{deleteMin}}
+\index{deleteMin@{deleteMin}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{deleteMin()}{deleteMin()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.delete\+Min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Red-\/black tree deletion. Removes the smallest key and associated value from the symbol table.
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em No\+Such\+Element\+Exception} & if the symbol table is empty \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a9c169daa99b6332328452992807784d0}\label{class_x_b3_1_1_red_black_b_s_t_a9c169daa99b6332328452992807784d0}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!floor@{floor}}
+\index{floor@{floor}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{floor()}{floor()}}
+{\footnotesize\ttfamily Key \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.floor (\begin{DoxyParamCaption}\item[{Key}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the largest key in the symbol table less than or equal to 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ .
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the largest key in the symbol table less than or equal to
+\begin{DoxyCode}{0}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em No\+Such\+Element\+Exception} & if there is no such key \\
+\hline
+{\em Illegal\+Argument\+Exception} & if
+\begin{DoxyCode}{1}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a6d385d0498d9acd16839d6c9b960fcf7}\label{class_x_b3_1_1_red_black_b_s_t_a6d385d0498d9acd16839d6c9b960fcf7}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!get@{get}}
+\index{get@{get}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily Value \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.get (\begin{DoxyParamCaption}\item[{Key}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Standard B\+ST search. Returns the value associated with the given key.
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the value associated with the given key if the key is in the symbol table and
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ if the key is not in the symbol table 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if
+\begin{DoxyCode}{1}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_af7063b9f0877f69a5c7824d9846fbc30}\label{class_x_b3_1_1_red_black_b_s_t_af7063b9f0877f69a5c7824d9846fbc30}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!height@{height}}
+\index{height@{height}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{height()}{height()}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Utility functions. Returns the height of the B\+ST (for debugging).
+
+\begin{DoxyReturn}{Returns}
+the height of the B\+ST (a 1-\/node tree has height 0) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a483d6a50d3b745bc780fc9994f30443d}\label{class_x_b3_1_1_red_black_b_s_t_a483d6a50d3b745bc780fc9994f30443d}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily boolean \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Is this symbol table empty?
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{true} }
+\end{DoxyCode}
+ if this symbol table is empty and
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{false} }
+\end{DoxyCode}
+ otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_aa27d93cae907f2de9daf8d5eee2c8b24}\label{class_x_b3_1_1_red_black_b_s_t_aa27d93cae907f2de9daf8d5eee2c8b24}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!keys@{keys}}
+\index{keys@{keys}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{keys()}{keys()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Iterable$<$Key$>$ \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.keys (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Range count and range search. Returns all keys in the symbol table as an
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Iterable }
+\end{DoxyCode}
+ . To iterate over all of the keys in the symbol table named
+\begin{DoxyCode}{0}
+\DoxyCodeLine{st }
+\end{DoxyCode}
+ , use the foreach notation\+:
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keywordflow}{for} (Key key : st.keys()) }
+\end{DoxyCode}
+ .
+
+\begin{DoxyReturn}{Returns}
+all keys in the symbol table as an
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Iterable }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a0e8a5a7f610448956c0f21d789b7c62f}\label{class_x_b3_1_1_red_black_b_s_t_a0e8a5a7f610448956c0f21d789b7c62f}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!keys@{keys}}
+\index{keys@{keys}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{keys()}{keys()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Iterable$<$Key$>$ \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.keys (\begin{DoxyParamCaption}\item[{Key}]{lo,  }\item[{Key}]{hi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns all keys in the symbol table in the given range, as an 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Iterable }
+\end{DoxyCode}
+ .
+
+
+\begin{DoxyParams}{Parameters}
+{\em lo} & minimum endpoint \\
+\hline
+{\em hi} & maximum endpoint \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+all keys in the symbol table between
+\begin{DoxyCode}{0}
+\DoxyCodeLine{lo }
+\end{DoxyCode}
+ (inclusive) and 
+\begin{DoxyCode}{0}
+\DoxyCodeLine{hi }
+\end{DoxyCode}
+ (inclusive) as an
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Iterable }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if either
+\begin{DoxyCode}{1}
+\DoxyCodeLine{lo }
+\end{DoxyCode}
+ or
+\begin{DoxyCode}{1}
+\DoxyCodeLine{hi }
+\end{DoxyCode}
+ is 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_afe8ffcf7e05e026979cc2e456a29582f}\label{class_x_b3_1_1_red_black_b_s_t_afe8ffcf7e05e026979cc2e456a29582f}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!max@{max}}
+\index{max@{max}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{max()}{max()}}
+{\footnotesize\ttfamily Key \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.max (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the largest key in the symbol table.
+
+\begin{DoxyReturn}{Returns}
+the largest key in the symbol table 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em No\+Such\+Element\+Exception} & if the symbol table is empty \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a0e985a6dce9914cf4662510fd17c0660}\label{class_x_b3_1_1_red_black_b_s_t_a0e985a6dce9914cf4662510fd17c0660}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!min@{min}}
+\index{min@{min}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{min()}{min()}}
+{\footnotesize\ttfamily Key \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.min (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Ordered symbol table methods. Returns the smallest key in the symbol table.
+
+\begin{DoxyReturn}{Returns}
+the smallest key in the symbol table 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em No\+Such\+Element\+Exception} & if the symbol table is empty \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_ab9ba4788a6e9ecf29e5f2197917d610c}\label{class_x_b3_1_1_red_black_b_s_t_ab9ba4788a6e9ecf29e5f2197917d610c}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!put@{put}}
+\index{put@{put}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{put()}{put()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.put (\begin{DoxyParamCaption}\item[{Key}]{key,  }\item[{Value}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Red-\/black tree insertion. Inserts the specified key-\/value pair into the symbol table, overwriting the old value with the new value if the symbol table already contains the specified key. Deletes the specified key (and its associated value) from this symbol table if the specified value is
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ .
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key \\
+\hline
+{\em val} & the value \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if
+\begin{DoxyCode}{1}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a4a0f9a5edd10de21f97b0476ed0f84ce}\label{class_x_b3_1_1_red_black_b_s_t_a4a0f9a5edd10de21f97b0476ed0f84ce}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!rank@{rank}}
+\index{rank@{rank}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{rank()}{rank()}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.rank (\begin{DoxyParamCaption}\item[{Key}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return the number of keys in the symbol table strictly less than
+\begin{DoxyCode}{0}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ .
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & the key \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the number of keys in the symbol table strictly less than
+\begin{DoxyCode}{0}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if
+\begin{DoxyCode}{1}
+\DoxyCodeLine{key }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a832975270b922ff75fa09a51f3ba540a}\label{class_x_b3_1_1_red_black_b_s_t_a832975270b922ff75fa09a51f3ba540a}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!select@{select}}
+\index{select@{select}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{select()}{select()}}
+{\footnotesize\ttfamily Key \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.select (\begin{DoxyParamCaption}\item[{int}]{rank }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Return the key in the symbol table of a given
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a4a0f9a5edd10de21f97b0476ed0f84ce}{rank}} }
+\end{DoxyCode}
+ . This key has the property that there are
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a4a0f9a5edd10de21f97b0476ed0f84ce}{rank}} }
+\end{DoxyCode}
+ keys in the symbol table that are smaller. In other words, this key is the (
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a4a0f9a5edd10de21f97b0476ed0f84ce}{rank}} }
+\end{DoxyCode}
+ +1)st smallest key in the symbol table.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rank} & the order statistic \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the key in the symbol table of given
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a4a0f9a5edd10de21f97b0476ed0f84ce}{rank}} }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & unless
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t_a4a0f9a5edd10de21f97b0476ed0f84ce}{rank}} }
+\end{DoxyCode}
+ is between 0 and n-\/1 \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a29bab1f2d1cdb268c887aa9b6949c4d9}\label{class_x_b3_1_1_red_black_b_s_t_a29bab1f2d1cdb268c887aa9b6949c4d9}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!size@{size}}
+\index{size@{size}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the number of key-\/value pairs in this symbol table.
+
+\begin{DoxyReturn}{Returns}
+the number of key-\/value pairs in this symbol table 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_red_black_b_s_t_a6e258d9e39a7e03bd3acdc9dd792baca}\label{class_x_b3_1_1_red_black_b_s_t_a6e258d9e39a7e03bd3acdc9dd792baca}} 
+\index{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!size@{size}}
+\index{size@{size}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{X\+B3.\+Red\+Black\+B\+ST}}$<$ Key extends Comparable$<$ Key, Value $>$.size (\begin{DoxyParamCaption}\item[{Key}]{lo,  }\item[{Key}]{hi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the number of keys in the symbol table in the given range.
+
+
+\begin{DoxyParams}{Parameters}
+{\em lo} & minimum endpoint \\
+\hline
+{\em hi} & maximum endpoint \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the number of keys in the symbol table between
+\begin{DoxyCode}{0}
+\DoxyCodeLine{lo }
+\end{DoxyCode}
+ (inclusive) and
+\begin{DoxyCode}{0}
+\DoxyCodeLine{hi }
+\end{DoxyCode}
+ (inclusive) 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if either
+\begin{DoxyCode}{1}
+\DoxyCodeLine{lo }
+\end{DoxyCode}
+ or
+\begin{DoxyCode}{1}
+\DoxyCodeLine{hi }
+\end{DoxyCode}
+ is 
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+2\+X\+B3\+\_\+project/src/\+X\+B3/Red\+Black\+B\+S\+T.\+java\end{DoxyCompactItemize}

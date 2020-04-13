@@ -1,29 +1,14 @@
 package XB3;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
 import java.util.Scanner;
-import java.util.Set;
 
-import javax.swing.text.StyledEditorKit.ForegroundAction;
-
-import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
-
-import com.opencsv.CSVReader;
-import com.opencsv.CSVReaderHeaderAware;
-import com.opencsv.CSVWriter;
-import com.opencsv.exceptions.CsvValidationException;
+/**
+ * Main class for 2BAirNot2B
+ * Run and follow prompts
+ *
+ * @author Michael Yohannes
+ */
 
 public class Main {
 
@@ -35,7 +20,7 @@ public class Main {
 		Scanner key = new Scanner(System.in);
 		System.out.println("#####################Welcome  2BAirNot2B#####################");
 		while (true) {
-			System.out.println("Please enter 1 of the following modes\nBEGIN_QUERY\nBEGIN_OPTIMIZATION");
+			System.out.println("Please enter one of the following modes\nBEGIN_QUERY\nBEGIN_OPTIMIZATION");
 			System.out.println("Or enter FINISH to exit this application");
 			String command = key.nextLine();
 			if (command.toLowerCase().equals("finish")) {
@@ -47,7 +32,7 @@ public class Main {
 				FilterLive liveFilter = new FilterLive();
 				while (true) {
 					System.out.println(
-							"Please enter 1 of the following modes...\nBEGIN_ADD_QUERY\nBEGIN_REMOVE_QUERY\nEND_QUERY");
+							"Please enter one of the following modes...\nBEGIN_ADD_QUERY\nBEGIN_REMOVE_QUERY\nEND_QUERY");
 					command = key.nextLine();
 					if (command.toUpperCase().equals("END_QUERY")) {
 						break;

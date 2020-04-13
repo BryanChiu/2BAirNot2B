@@ -3,6 +3,12 @@ package XB3;
 import java.math.BigDecimal;
 import java.util.Map;
 
+/**
+ * Class that represents an AirBNB listing
+ *
+ * @author Michael Yohannes
+ */
+
 public class Listing implements Comparable<Listing> {
 
 	private int id;
@@ -16,11 +22,16 @@ public class Listing implements Comparable<Listing> {
 	private Double dayPrice;
 	private Double reviewRating;
 	private Double avail365;
-//	private Double revenue;
 	private BigDecimal revenue;
 	private String treeType;
 	private Map<String, String> listingData;
 	
+	/**
+	 * Initializes listing using appropriate csv fields.
+	 * 
+	 * @param listingData listing data from csv fields
+	 * @param treeType tree type
+	 */
 	Listing(Map<String, String> listingData, String treeType) {
 		this.listingData = listingData;
 		id = Integer.parseInt(listingData.get("id"));
@@ -48,10 +59,22 @@ public class Listing implements Comparable<Listing> {
 
 	}
 	
+	/**
+	 * Takes a listing and returns it with a changed tree type.
+	 * 
+	 * @param listingData listing data from csv fields
+	 * @param treeType tree type 
+	 */
 	public static Listing changeTreeType(Listing listing, String treeType) {
 		return new Listing(listing.getListingData(), treeType);
 	}
 
+	/**
+	 * Attempts to parse an input value into a double.
+	 * 
+	 * @param val String value to be parsed
+	 * @return String value parsed into a double
+	 */
 	public Double validNumber(String val) {
 		if (val.equals("")) {
 			return null;
@@ -64,6 +87,11 @@ public class Listing implements Comparable<Listing> {
 	String[] header = { "id", "host_is_superhost", "neighbourhood_cleansed", "zipcode", "property_type", "accommodates",
 			"bathrooms", "bedrooms", "price", "review_scores_rating", "availability_365" };
 
+	/**
+	 * Returns the listing data as an array of String.
+	 * 
+	 * @return the listing data as an array of String
+	 */
 	public String[] toSeq() {
 		String[] seq = new String[11];
 		seq[0] = (String.valueOf(id));
@@ -81,6 +109,10 @@ public class Listing implements Comparable<Listing> {
 
 	}
 
+	/***************************************************************************
+	 * Get methods for the listing data
+	 ***************************************************************************/
+	
 	public int getId() {
 		return id;
 	}
@@ -151,6 +183,10 @@ public class Listing implements Comparable<Listing> {
 		str.append("\n##############################\n");
 		return str.toString();
 	}
+	
+	/***************************************************************************
+	 * compareTo methods for revenue, bedrooms, bathrooms
+	 ***************************************************************************/
 
 	@Override
 	public int compareTo(Listing obj) {
@@ -173,9 +209,8 @@ public class Listing implements Comparable<Listing> {
 		}
 
 	}
-
+	
 	public int compareRev(Listing that) {
-//		System.out.println( this.getRevenue() + ">" + that.getRevenue() + " " + this.getRevenue().compareTo(that.getRevenue()) );		
 		return this.getRevenue().compareTo(that.getRevenue());
 
 	}

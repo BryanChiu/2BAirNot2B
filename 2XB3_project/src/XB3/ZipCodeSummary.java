@@ -2,10 +2,22 @@ package XB3;
 
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 
+/**
+ * Class that represents a zipcode
+ * 
+ * @author Michael Yohannes
+ */
+
 public class ZipCodeSummary implements Comparable {
 	private String zipcode;
 	DescriptiveStatistics zipcodeData;
 
+	/**
+	 * Initializes a zipcode
+	 * 
+	 * @param zipcode the zipcode as a String
+	 * @param zipcodeData zipcode data
+	 */
 	ZipCodeSummary(String zipcode, DescriptiveStatistics zipcodeData) {
 		this.zipcode = zipcode;
 		this.zipcodeData = zipcodeData;

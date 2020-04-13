@@ -1,0 +1,124 @@
+\indexentry{XB3.BathBST@{XB3.BathBST}|hyperpage}{9}
+\indexentry{XB3.BathBST@{XB3.BathBST}!getRangeToDelete@{getRangeToDelete}|hyperpage}{9}
+\indexentry{getRangeToDelete@{getRangeToDelete}!XB3.BathBST@{XB3.BathBST}|hyperpage}{9}
+\indexentry{XB3.BathBST@{XB3.BathBST}!keys@{keys}|hyperpage}{10}
+\indexentry{keys@{keys}!XB3.BathBST@{XB3.BathBST}|hyperpage}{10}
+\indexentry{XB3.BedBST@{XB3.BedBST}|hyperpage}{10}
+\indexentry{XB3.BedBST@{XB3.BedBST}!getRangeToDelete@{getRangeToDelete}|hyperpage}{11}
+\indexentry{getRangeToDelete@{getRangeToDelete}!XB3.BedBST@{XB3.BedBST}|hyperpage}{11}
+\indexentry{XB3.BedBST@{XB3.BedBST}!keys@{keys}|hyperpage}{12}
+\indexentry{keys@{keys}!XB3.BedBST@{XB3.BedBST}|hyperpage}{12}
+\indexentry{XB3.Filter@{XB3.Filter}|hyperpage}{12}
+\indexentry{XB3.Filter@{XB3.Filter}!getQuery@{getQuery}|hyperpage}{13}
+\indexentry{getQuery@{getQuery}!XB3.Filter@{XB3.Filter}|hyperpage}{13}
+\indexentry{XB3.Filter@{XB3.Filter}!getRelation@{getRelation}|hyperpage}{13}
+\indexentry{getRelation@{getRelation}!XB3.Filter@{XB3.Filter}|hyperpage}{13}
+\indexentry{XB3.Filter@{XB3.Filter}!getValue@{getValue}|hyperpage}{13}
+\indexentry{getValue@{getValue}!XB3.Filter@{XB3.Filter}|hyperpage}{13}
+\indexentry{XB3.Filter@{XB3.Filter}!validFilter@{validFilter}|hyperpage}{13}
+\indexentry{validFilter@{validFilter}!XB3.Filter@{XB3.Filter}|hyperpage}{13}
+\indexentry{XB3.FilterLive@{XB3.FilterLive}|hyperpage}{14}
+\indexentry{XB3.FilterLive@{XB3.FilterLive}!addAnFFile@{addAnFFile}|hyperpage}{14}
+\indexentry{addAnFFile@{addAnFFile}!XB3.FilterLive@{XB3.FilterLive}|hyperpage}{14}
+\indexentry{XB3.FilterLive@{XB3.FilterLive}!addFilter@{addFilter}|hyperpage}{15}
+\indexentry{addFilter@{addFilter}!XB3.FilterLive@{XB3.FilterLive}|hyperpage}{15}
+\indexentry{XB3.FilterLive@{XB3.FilterLive}!deleteListings@{deleteListings}|hyperpage}{15}
+\indexentry{deleteListings@{deleteListings}!XB3.FilterLive@{XB3.FilterLive}|hyperpage}{15}
+\indexentry{XB3.FilterLive@{XB3.FilterLive}!getLiveTrees@{getLiveTrees}|hyperpage}{15}
+\indexentry{getLiveTrees@{getLiveTrees}!XB3.FilterLive@{XB3.FilterLive}|hyperpage}{15}
+\indexentry{XB3.FilterLive@{XB3.FilterLive}!liveTreeInvariant@{liveTreeInvariant}|hyperpage}{16}
+\indexentry{liveTreeInvariant@{liveTreeInvariant}!XB3.FilterLive@{XB3.FilterLive}|hyperpage}{16}
+\indexentry{XB3.FilterLive@{XB3.FilterLive}!removeFilter@{removeFilter}|hyperpage}{16}
+\indexentry{removeFilter@{removeFilter}!XB3.FilterLive@{XB3.FilterLive}|hyperpage}{16}
+\indexentry{XB3.FilterLive@{XB3.FilterLive}!showTop@{showTop}|hyperpage}{16}
+\indexentry{showTop@{showTop}!XB3.FilterLive@{XB3.FilterLive}|hyperpage}{16}
+\indexentry{XB3.FilterLive@{XB3.FilterLive}!toString@{toString}|hyperpage}{16}
+\indexentry{toString@{toString}!XB3.FilterLive@{XB3.FilterLive}|hyperpage}{16}
+\indexentry{XB3.Listing@{XB3.Listing}|hyperpage}{17}
+\indexentry{XB3.Listing@{XB3.Listing}!changeTreeType@{changeTreeType}|hyperpage}{18}
+\indexentry{changeTreeType@{changeTreeType}!XB3.Listing@{XB3.Listing}|hyperpage}{18}
+\indexentry{XB3.Listing@{XB3.Listing}!compareTo@{compareTo}|hyperpage}{18}
+\indexentry{compareTo@{compareTo}!XB3.Listing@{XB3.Listing}|hyperpage}{18}
+\indexentry{XB3.Listing@{XB3.Listing}!getId@{getId}|hyperpage}{18}
+\indexentry{getId@{getId}!XB3.Listing@{XB3.Listing}|hyperpage}{18}
+\indexentry{XB3.Listing@{XB3.Listing}!toSeq@{toSeq}|hyperpage}{18}
+\indexentry{toSeq@{toSeq}!XB3.Listing@{XB3.Listing}|hyperpage}{18}
+\indexentry{XB3.Listing@{XB3.Listing}!validNumber@{validNumber}|hyperpage}{18}
+\indexentry{validNumber@{validNumber}!XB3.Listing@{XB3.Listing}|hyperpage}{18}
+\indexentry{XB3.Main@{XB3.Main}|hyperpage}{19}
+\indexentry{XB3.NeighborhoodSummary@{XB3.NeighborhoodSummary}|hyperpage}{19}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$.Node@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$.Node}|hyperpage}{20}
+\indexentry{XB3.Optimization@{XB3.Optimization}|hyperpage}{20}
+\indexentry{XB3.Optimization@{XB3.Optimization}!Optimization@{Optimization}|hyperpage}{21}
+\indexentry{Optimization@{Optimization}!XB3.Optimization@{XB3.Optimization}|hyperpage}{21}
+\indexentry{XB3.Optimization@{XB3.Optimization}!optimizeReport@{optimizeReport}|hyperpage}{22}
+\indexentry{optimizeReport@{optimizeReport}!XB3.Optimization@{XB3.Optimization}|hyperpage}{22}
+\indexentry{XB3.Optimization@{XB3.Optimization}!showTopNeighborhoods@{showTopNeighborhoods}|hyperpage}{22}
+\indexentry{showTopNeighborhoods@{showTopNeighborhoods}!XB3.Optimization@{XB3.Optimization}|hyperpage}{22}
+\indexentry{XB3.Optimization@{XB3.Optimization}!showTopZipCodes@{showTopZipCodes}|hyperpage}{22}
+\indexentry{showTopZipCodes@{showTopZipCodes}!XB3.Optimization@{XB3.Optimization}|hyperpage}{22}
+\indexentry{XB3.ReadListingsFromCSV@{XB3.ReadListingsFromCSV}|hyperpage}{22}
+\indexentry{XB3.ReadListingsFromCSV@{XB3.ReadListingsFromCSV}!ReadListings@{ReadListings}|hyperpage}{23}
+\indexentry{ReadListings@{ReadListings}!XB3.ReadListingsFromCSV@{XB3.ReadListingsFromCSV}|hyperpage}{23}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{23}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!RedBlackBST@{RedBlackBST}|hyperpage}{24}
+\indexentry{RedBlackBST@{RedBlackBST}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{24}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!ceiling@{ceiling}|hyperpage}{25}
+\indexentry{ceiling@{ceiling}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{25}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!contains@{contains}|hyperpage}{25}
+\indexentry{contains@{contains}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{25}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!delete@{delete}|hyperpage}{26}
+\indexentry{delete@{delete}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{26}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!deleteMax@{deleteMax}|hyperpage}{26}
+\indexentry{deleteMax@{deleteMax}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{26}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!deleteMin@{deleteMin}|hyperpage}{26}
+\indexentry{deleteMin@{deleteMin}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{26}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!floor@{floor}|hyperpage}{27}
+\indexentry{floor@{floor}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{27}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!get@{get}|hyperpage}{27}
+\indexentry{get@{get}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{27}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!height@{height}|hyperpage}{28}
+\indexentry{height@{height}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{28}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!isEmpty@{isEmpty}|hyperpage}{28}
+\indexentry{isEmpty@{isEmpty}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{28}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!keys@{keys}|hyperpage}{28}
+\indexentry{keys@{keys}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{28}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!keys@{keys}|hyperpage}{28}
+\indexentry{keys@{keys}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{28}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!max@{max}|hyperpage}{29}
+\indexentry{max@{max}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{29}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!min@{min}|hyperpage}{29}
+\indexentry{min@{min}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{29}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!put@{put}|hyperpage}{30}
+\indexentry{put@{put}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{30}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!rank@{rank}|hyperpage}{30}
+\indexentry{rank@{rank}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{30}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!select@{select}|hyperpage}{31}
+\indexentry{select@{select}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{31}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!size@{size}|hyperpage}{31}
+\indexentry{size@{size}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{31}
+\indexentry{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}!size@{size}|hyperpage}{32}
+\indexentry{size@{size}!XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$@{XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}|hyperpage}{32}
+\indexentry{XB3.RevBST@{XB3.RevBST}|hyperpage}{32}
+\indexentry{XB3.RevBST@{XB3.RevBST}!getRangeToDelete@{getRangeToDelete}|hyperpage}{33}
+\indexentry{getRangeToDelete@{getRangeToDelete}!XB3.RevBST@{XB3.RevBST}|hyperpage}{33}
+\indexentry{XB3.RevBST@{XB3.RevBST}!keys@{keys}|hyperpage}{34}
+\indexentry{keys@{keys}!XB3.RevBST@{XB3.RevBST}|hyperpage}{34}
+\indexentry{XB3.SummaryStats@{XB3.SummaryStats}|hyperpage}{34}
+\indexentry{XB3.SummaryStats@{XB3.SummaryStats}!showNeighborhoods@{showNeighborhoods}|hyperpage}{35}
+\indexentry{showNeighborhoods@{showNeighborhoods}!XB3.SummaryStats@{XB3.SummaryStats}|hyperpage}{35}
+\indexentry{XB3.SummaryStats@{XB3.SummaryStats}!showZipCodes@{showZipCodes}|hyperpage}{35}
+\indexentry{showZipCodes@{showZipCodes}!XB3.SummaryStats@{XB3.SummaryStats}|hyperpage}{35}
+\indexentry{XB3.WriteListingsToCSV@{XB3.WriteListingsToCSV}|hyperpage}{35}
+\indexentry{XB3.WriteListingsToCSV@{XB3.WriteListingsToCSV}!WriteListings@{WriteListings}|hyperpage}{35}
+\indexentry{WriteListings@{WriteListings}!XB3.WriteListingsToCSV@{XB3.WriteListingsToCSV}|hyperpage}{35}
+\indexentry{XB3.ZipCodeClean@{XB3.ZipCodeClean}|hyperpage}{36}
+\indexentry{XB3.ZipCodeClean@{XB3.ZipCodeClean}!cleanData@{cleanData}|hyperpage}{36}
+\indexentry{cleanData@{cleanData}!XB3.ZipCodeClean@{XB3.ZipCodeClean}|hyperpage}{36}
+\indexentry{XB3.ZipCodeClean@{XB3.ZipCodeClean}!uncleanedData@{uncleanedData}|hyperpage}{37}
+\indexentry{uncleanedData@{uncleanedData}!XB3.ZipCodeClean@{XB3.ZipCodeClean}|hyperpage}{37}
+\indexentry{XB3.ZipCodeClean@{XB3.ZipCodeClean}!validFields@{validFields}|hyperpage}{37}
+\indexentry{validFields@{validFields}!XB3.ZipCodeClean@{XB3.ZipCodeClean}|hyperpage}{37}
+\indexentry{XB3.ZipCodeClean@{XB3.ZipCodeClean}!writeCleanedListings@{writeCleanedListings}|hyperpage}{37}
+\indexentry{writeCleanedListings@{writeCleanedListings}!XB3.ZipCodeClean@{XB3.ZipCodeClean}|hyperpage}{37}
+\indexentry{XB3.ZipCodeSummary@{XB3.ZipCodeSummary}|hyperpage}{38}

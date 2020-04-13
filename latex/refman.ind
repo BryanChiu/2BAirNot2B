@@ -1,0 +1,244 @@
+\begin{theindex}
+
+  \item {addAnFFile}
+    \subitem {XB3.FilterLive}, \hyperpage{10}
+  \item {addFilter}
+    \subitem {XB3.FilterLive}, \hyperpage{11}
+
+  \indexspace
+
+  \item {ceiling}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{21}
+  \item {changeTreeType}
+    \subitem {XB3.Listing}, \hyperpage{14}
+  \item {cleanData}
+    \subitem {XB3.ZipCodeClean}, \hyperpage{32}
+  \item {compareTo}
+    \subitem {XB3.Listing}, \hyperpage{14}
+  \item {contains}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {delete}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{22}
+  \item {deleteListings}
+    \subitem {XB3.FilterLive}, \hyperpage{11}
+  \item {deleteMax}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{22}
+  \item {deleteMin}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{22}
+
+  \indexspace
+
+  \item {floor}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {get}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{23}
+  \item {getId}
+    \subitem {XB3.Listing}, \hyperpage{14}
+  \item {getLiveTrees}
+    \subitem {XB3.FilterLive}, \hyperpage{11}
+  \item {getQuery}
+    \subitem {XB3.Filter}, \hyperpage{9}
+  \item {getRangeToDelete}
+    \subitem {XB3.BathBST}, \hyperpage{5}
+    \subitem {XB3.BedBST}, \hyperpage{7}
+    \subitem {XB3.RevBST}, \hyperpage{29}
+  \item {getRelation}
+    \subitem {XB3.Filter}, \hyperpage{9}
+  \item {getValue}
+    \subitem {XB3.Filter}, \hyperpage{9}
+
+  \indexspace
+
+  \item {height}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{24}
+
+  \indexspace
+
+  \item {isEmpty}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{24}
+
+  \indexspace
+
+  \item {keys}
+    \subitem {XB3.BathBST}, \hyperpage{6}
+    \subitem {XB3.BedBST}, \hyperpage{8}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{24}
+    \subitem {XB3.RevBST}, \hyperpage{30}
+
+  \indexspace
+
+  \item {liveTreeInvariant}
+    \subitem {XB3.FilterLive}, \hyperpage{12}
+
+  \indexspace
+
+  \item {max}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{25}
+  \item {min}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{25}
+
+  \indexspace
+
+  \item {Optimization}
+    \subitem {XB3.Optimization}, \hyperpage{17}
+  \item {optimizeReport}
+    \subitem {XB3.Optimization}, \hyperpage{18}
+
+  \indexspace
+
+  \item {put}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{26}
+
+  \indexspace
+
+  \item {rank}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{26}
+  \item {ReadListings}
+    \subitem {XB3.ReadListingsFromCSV}, \hyperpage{19}
+  \item {RedBlackBST}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{20}
+  \item {removeFilter}
+    \subitem {XB3.FilterLive}, \hyperpage{12}
+
+  \indexspace
+
+  \item {select}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{27}
+  \item {showNeighborhoods}
+    \subitem {XB3.SummaryStats}, \hyperpage{31}
+  \item {showTop}
+    \subitem {XB3.FilterLive}, \hyperpage{12}
+  \item {showTopNeighborhoods}
+    \subitem {XB3.Optimization}, \hyperpage{18}
+  \item {showTopZipCodes}
+    \subitem {XB3.Optimization}, \hyperpage{18}
+  \item {showZipCodes}
+    \subitem {XB3.SummaryStats}, \hyperpage{31}
+  \item {size}
+    \subitem {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{27, 28}
+
+  \indexspace
+
+  \item {toSeq}
+    \subitem {XB3.Listing}, \hyperpage{14}
+  \item {toString}
+    \subitem {XB3.FilterLive}, \hyperpage{12}
+
+  \indexspace
+
+  \item {uncleanedData}
+    \subitem {XB3.ZipCodeClean}, \hyperpage{33}
+
+  \indexspace
+
+  \item {validFields}
+    \subitem {XB3.ZipCodeClean}, \hyperpage{33}
+  \item {validFilter}
+    \subitem {XB3.Filter}, \hyperpage{9}
+  \item {validNumber}
+    \subitem {XB3.Listing}, \hyperpage{14}
+
+  \indexspace
+
+  \item {writeCleanedListings}
+    \subitem {XB3.ZipCodeClean}, \hyperpage{33}
+  \item {WriteListings}
+    \subitem {XB3.WriteListingsToCSV}, \hyperpage{31}
+
+  \indexspace
+
+  \item {XB3.BathBST}, \hyperpage{5}
+    \subitem {getRangeToDelete}, \hyperpage{5}
+    \subitem {keys}, \hyperpage{6}
+  \item {XB3.BedBST}, \hyperpage{6}
+    \subitem {getRangeToDelete}, \hyperpage{7}
+    \subitem {keys}, \hyperpage{8}
+  \item {XB3.Filter}, \hyperpage{8}
+    \subitem {getQuery}, \hyperpage{9}
+    \subitem {getRelation}, \hyperpage{9}
+    \subitem {getValue}, \hyperpage{9}
+    \subitem {validFilter}, \hyperpage{9}
+  \item {XB3.FilterLive}, \hyperpage{10}
+    \subitem {addAnFFile}, \hyperpage{10}
+    \subitem {addFilter}, \hyperpage{11}
+    \subitem {deleteListings}, \hyperpage{11}
+    \subitem {getLiveTrees}, \hyperpage{11}
+    \subitem {liveTreeInvariant}, \hyperpage{12}
+    \subitem {removeFilter}, \hyperpage{12}
+    \subitem {showTop}, \hyperpage{12}
+    \subitem {toString}, \hyperpage{12}
+  \item {XB3.Listing}, \hyperpage{13}
+    \subitem {changeTreeType}, \hyperpage{14}
+    \subitem {compareTo}, \hyperpage{14}
+    \subitem {getId}, \hyperpage{14}
+    \subitem {toSeq}, \hyperpage{14}
+    \subitem {validNumber}, \hyperpage{14}
+  \item {XB3.Main}, \hyperpage{15}
+  \item {XB3.NeighborhoodSummary}, \hyperpage{15}
+  \item {XB3.Optimization}, \hyperpage{16}
+    \subitem {Optimization}, \hyperpage{17}
+    \subitem {optimizeReport}, \hyperpage{18}
+    \subitem {showTopNeighborhoods}, \hyperpage{18}
+    \subitem {showTopZipCodes}, \hyperpage{18}
+  \item {XB3.ReadListingsFromCSV}, \hyperpage{18}
+    \subitem {ReadListings}, \hyperpage{19}
+  \item {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$}, 
+		\hyperpage{19}
+    \subitem {ceiling}, \hyperpage{21}
+    \subitem {contains}, \hyperpage{21}
+    \subitem {delete}, \hyperpage{22}
+    \subitem {deleteMax}, \hyperpage{22}
+    \subitem {deleteMin}, \hyperpage{22}
+    \subitem {floor}, \hyperpage{23}
+    \subitem {get}, \hyperpage{23}
+    \subitem {height}, \hyperpage{24}
+    \subitem {isEmpty}, \hyperpage{24}
+    \subitem {keys}, \hyperpage{24}
+    \subitem {max}, \hyperpage{25}
+    \subitem {min}, \hyperpage{25}
+    \subitem {put}, \hyperpage{26}
+    \subitem {rank}, \hyperpage{26}
+    \subitem {RedBlackBST}, \hyperpage{20}
+    \subitem {select}, \hyperpage{27}
+    \subitem {size}, \hyperpage{27, 28}
+  \item {XB3.RedBlackBST$<$ Key extends Comparable$<$ Key, Value $>$.Node}, 
+		\hyperpage{16}
+  \item {XB3.RevBST}, \hyperpage{28}
+    \subitem {getRangeToDelete}, \hyperpage{29}
+    \subitem {keys}, \hyperpage{30}
+  \item {XB3.SummaryStats}, \hyperpage{30}
+    \subitem {showNeighborhoods}, \hyperpage{31}
+    \subitem {showZipCodes}, \hyperpage{31}
+  \item {XB3.WriteListingsToCSV}, \hyperpage{31}
+    \subitem {WriteListings}, \hyperpage{31}
+  \item {XB3.ZipCodeClean}, \hyperpage{32}
+    \subitem {cleanData}, \hyperpage{32}
+    \subitem {uncleanedData}, \hyperpage{33}
+    \subitem {validFields}, \hyperpage{33}
+    \subitem {writeCleanedListings}, \hyperpage{33}
+  \item {XB3.ZipCodeSummary}, \hyperpage{34}
+
+\end{theindex}

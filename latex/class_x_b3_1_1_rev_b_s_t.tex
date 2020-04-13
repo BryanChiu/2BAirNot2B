@@ -1,0 +1,113 @@
+\hypertarget{class_x_b3_1_1_rev_b_s_t}{}\doxysection{X\+B3.\+Rev\+B\+ST Class Reference}
+\label{class_x_b3_1_1_rev_b_s_t}\index{XB3.RevBST@{XB3.RevBST}}
+Inheritance diagram for X\+B3.\+Rev\+B\+ST\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_x_b3_1_1_rev_b_s_t}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Queue$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ \mbox{\hyperlink{class_x_b3_1_1_rev_b_s_t_a0cb7d4304a7967cd004f358f73e84087}{get\+Range\+To\+Delete}} (\mbox{\hyperlink{class_x_b3_1_1_filter}{Filter}} some\+Filter)
+\item 
+Queue$<$ \mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}} $>$ \mbox{\hyperlink{class_x_b3_1_1_rev_b_s_t_a4a74e5febf6ea4080949715f7d3579df}{keys}} (Big\+Decimal lo, Big\+Decimal hi)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_x_b3_1_1_rev_b_s_t_a5146ee90712c5ec975520ada7ca7bcd6}\label{class_x_b3_1_1_rev_b_s_t_a5146ee90712c5ec975520ada7ca7bcd6}} 
+static final String {\bfseries tree\+Type} = \char`\"{}revenue\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+B\+ST for listings based on revenue
+
+\begin{DoxyAuthor}{Author}
+Michael Yohannes 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_x_b3_1_1_rev_b_s_t_a0cb7d4304a7967cd004f358f73e84087}\label{class_x_b3_1_1_rev_b_s_t_a0cb7d4304a7967cd004f358f73e84087}} 
+\index{XB3.RevBST@{XB3.RevBST}!getRangeToDelete@{getRangeToDelete}}
+\index{getRangeToDelete@{getRangeToDelete}!XB3.RevBST@{XB3.RevBST}}
+\doxysubsubsection{\texorpdfstring{getRangeToDelete()}{getRangeToDelete()}}
+{\footnotesize\ttfamily Queue$<$\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}$>$ X\+B3.\+Rev\+B\+S\+T.\+get\+Range\+To\+Delete (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_x_b3_1_1_filter}{Filter}}}]{some\+Filter }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns all keys in the \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{Red\+Black\+B\+ST}} before/after a certain cutoff, as a Queue
+
+
+\begin{DoxyParams}{Parameters}
+{\em some\+Filter} & filter \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+either all keys before/after
+\begin{DoxyCode}{0}
+\DoxyCodeLine{someFilter }
+\end{DoxyCode}
+ (inclusive) as a
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Queue }
+\end{DoxyCode}
+ , or
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_x_b3_1_1_rev_b_s_t_a4a74e5febf6ea4080949715f7d3579df}\label{class_x_b3_1_1_rev_b_s_t_a4a74e5febf6ea4080949715f7d3579df}} 
+\index{XB3.RevBST@{XB3.RevBST}!keys@{keys}}
+\index{keys@{keys}!XB3.RevBST@{XB3.RevBST}}
+\doxysubsubsection{\texorpdfstring{keys()}{keys()}}
+{\footnotesize\ttfamily Queue$<$\mbox{\hyperlink{class_x_b3_1_1_listing}{Listing}}$>$ X\+B3.\+Rev\+B\+S\+T.\+keys (\begin{DoxyParamCaption}\item[{Big\+Decimal}]{lo,  }\item[{Big\+Decimal}]{hi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns all keys in the \mbox{\hyperlink{class_x_b3_1_1_red_black_b_s_t}{Red\+Black\+B\+ST}} in the given range, as a Queue
+
+
+\begin{DoxyParams}{Parameters}
+{\em lo} & minimum endpoint \\
+\hline
+{\em hi} & maximum endpoint \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+all keys in the symbol table between
+\begin{DoxyCode}{0}
+\DoxyCodeLine{lo }
+\end{DoxyCode}
+ (inclusive) and
+\begin{DoxyCode}{0}
+\DoxyCodeLine{hi }
+\end{DoxyCode}
+ (inclusive) as a
+\begin{DoxyCode}{0}
+\DoxyCodeLine{Queue }
+\end{DoxyCode}
+ 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Illegal\+Argument\+Exception} & if either
+\begin{DoxyCode}{1}
+\DoxyCodeLine{lo }
+\end{DoxyCode}
+ or
+\begin{DoxyCode}{1}
+\DoxyCodeLine{hi }
+\end{DoxyCode}
+ is
+\begin{DoxyCode}{1}
+\DoxyCodeLine{\textcolor{keyword}{null} }
+\end{DoxyCode}
+ \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+2\+X\+B3\+\_\+project/src/\+X\+B3/Rev\+B\+S\+T.\+java\end{DoxyCompactItemize}

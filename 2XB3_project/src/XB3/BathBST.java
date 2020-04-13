@@ -3,15 +3,28 @@ package XB3;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import XB3.RedBlackBST.Node;
+/**
+ * BST for listings based on number of bathrooms
+ *
+ * @author Michael Yohannes
+ */
 
 public class BathBST extends RedBlackBST<Listing, Integer> {
 	public static final String treeType = "bathrooms";
 	
+	/**
+	 * Initializes an empty listings BST.
+	 */
 	BathBST(){
 		super();
 	}
 	
+	/**
+	 * Returns all keys in the RedBlackBST before/after a certain cutoff, as a Queue
+	 *
+	 * @param someFilter filter
+	 * @return either all keys before/after {@code someFilter} (inclusive) as a {@code Queue}, or {@code null}
+	 */
 	public Queue<Listing> getRangeToDelete(Filter someFilter) {
 		String rel = someFilter.getRelation();
 		if (rel.equals(">")) {
@@ -25,6 +38,14 @@ public class BathBST extends RedBlackBST<Listing, Integer> {
 		return null;
 	}
 	
+	/**
+	 * Returns all keys in the RedBlackBST in the given range, as a Queue
+	 *
+	 * @param lo minimum endpoint
+	 * @param hi maximum endpoint
+	 * @return all keys in the symbol table between {@code lo} (inclusive) and {@code hi} (inclusive) as a {@code Queue}
+	 * @throws IllegalArgumentException if either {@code lo} or {@code hi} is {@code null}
+	 */
 	public Queue<Listing> keys(Double lo, Double hi) {
 		if (lo == null)
 			throw new IllegalArgumentException("first argument to keys() is null");
@@ -37,6 +58,8 @@ public class BathBST extends RedBlackBST<Listing, Integer> {
 		return queue;
 	}
 
+	// add the keys between lo and hi in the subtree rooted at x
+	// to the queue
 	private void keys(Node x, Queue<Listing> queue, Double lo, Double hi) {
 		if (x == null)
 			return;

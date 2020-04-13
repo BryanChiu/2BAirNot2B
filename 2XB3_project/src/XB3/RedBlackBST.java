@@ -5,7 +5,7 @@ import java.util.NoSuchElementException;
 import java.util.Queue;
 
 /**
- * <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
+ * Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne.
  *
  * @author Robert Sedgewick
  * @author Kevin Wayne
@@ -533,8 +533,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
 	 *
 	 * @param rank the order statistic
 	 * @return the key in the symbol table of given {@code rank}
-	 * @throws IllegalArgumentException unless {@code rank} is between 0 and
-	 *                                  <em>n</em>–1
+	 * @throws IllegalArgumentException unless {@code rank} is between 0 and n-1
 	 */
 	public Key select(int rank) {
 		if (rank < 0 || rank >= size()) {
